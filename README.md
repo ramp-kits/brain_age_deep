@@ -4,7 +4,7 @@
 ![Testing Notebook](https://github.com/AGrigis/brain_age_deep/actions/workflows/testing_notebook.yml/badge.svg)
 
 
-# Brain age regression
+# Brain age regression using deep learning
 
 Predict age from brain grey matter (regression) using Deep Learning.
 Aging is associated with grey matter (GM) atrophy. Each year, an adult lose
@@ -125,7 +125,7 @@ For instance to create a `linear_regression_rois` submission, start by
 copying the starting kit
 
 ```
-cp -r submissions/submissions/strating_kit submissions/submissions/linear_regression_rois`.
+cp -r submissions/submissions/strating_kit submissions/submissions/linear_regression_rois.
 ```
  
 Tune the estimator in the`submissions/submissions/linear_regression_rois/estimator.py` file.
