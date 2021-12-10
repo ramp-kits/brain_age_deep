@@ -33,7 +33,7 @@ class DeepEstimator(rw.workflows.SKLearnPipeline):
 
 
 N_FOLDS = 1
-problem_title = "Predict age from brain grey matter (regression)"
+problem_title = "Predict age from brain grey matter (regression with DL)"
 _target_column_name = "age"
 Predictions = rw.prediction_types.make_regression()
 workflow = DeepEstimator(
